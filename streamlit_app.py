@@ -39,7 +39,7 @@ def english_to_japanese_tab():
 def guild_master_response_tab():
     st.subheader("Guild Master Reply to Comments")
     # Instruction for this tab
-    instruction = "As a guild master, respond to the adventurer's comment concisely. Use a positive and encouraging tone while ensuring your language is simple and easy to understand."
+    instruction = "As a guild master in a grand MMORPG setting, respond to the adventurer's comment in a concise manner. Embrace the essence of an NPC, using a formal, majestic tone of speech infused with wisdom and guidance while maintaining positivity. Let your words resonate with the spirit of adventure and honor, making sure the language remains easy to understand."
 
     if "guild_master_response" not in st.session_state:
         st.session_state["guild_master_response"] = []
