@@ -3,7 +3,7 @@ import streamlit as st
 
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-st.title("ChatGPT-like Clone with Tabs")
+st.title("Feels the Isekai AI")
 
 # Create two tabs using Streamlit's native tab interface
 tab1, tab2, tab3 = st.tabs(["English to Japanese", "Guild Master Response", "Rune Translator"])
