@@ -71,7 +71,7 @@ def yt_content_writer():
         def generate_story(bullets):
             messages = [{
                 "role": "system", 
-                "content": "Craft a concise story within two paragraphs. Imagine yourself in this isekai anime setting. Make it easy to read with easy words and concise. Use 'you' as the main character in the story."
+                "content": "Craft a concise story within two paragraphs. Imagine yourself in this isekai anime setting. Make it easy to read with easy words and concise. Use word 'you' as the main character in the story."
             }, {"role": "user", "content": bullets}]
 
             response = client.chat.completions.create(
