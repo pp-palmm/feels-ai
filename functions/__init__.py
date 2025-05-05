@@ -1,0 +1,1 @@
+from .chat_handler import handle_chat_tab

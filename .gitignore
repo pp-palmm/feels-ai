@@ -1,0 +1,10 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore other typical files or directories
+.env
+.vscode/
+.idea/
+*.log
+secrets.toml
